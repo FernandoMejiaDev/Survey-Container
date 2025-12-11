@@ -262,11 +262,11 @@ Dentro de `index.css` encontrarás un comentario explicando por qué se optó po
 ### 📸 Pantallas
 Vista principal con encuestas:
 
-![Vista principal con encuestas](https://github.com/FernandoMejiaDev/Project-React-Ty-Node/blob/main/Img-Readme/Readme-Image-1.png)
+![Vista principal con encuestas](https://github.com/FernandoMejiaDev/Survey-Container/blob/main/Img-Readme/Readme-Image-1.png)
 
 Vista de encuesta con campos para responder
 
-![Vista de encuesta con campos para responder](https://github.com/FernandoMejiaDev/Project-React-Ty-Node/blob/main/Img-Readme/Readme-Image-2.png)
+![Vista de encuesta con campos para responder](https://github.com/FernandoMejiaDev/Survey-Container/blob/main/Img-Readme/Readme-Image-2.png)
 
 </details>
 
@@ -425,6 +425,7 @@ La API está preparada para recibir datos seguros y evitar inyecciones SQL media
 [![GITHUB](https://img.shields.io/static/v1?message=Repositorio-de-demo-con-el-uso-del-paquete&logo=Github&label=&color=22262A&logoColor=white&labelColor=&style=for-the-badge)](https://github.com/FernandoMejiaDev/demo-survey-container)
 [![WORDPRESS](https://img.shields.io/static/v1?message=página-de-documentación&logo=WordPress&label=&color=1790c8&logoColor=white&labelColor=&style=for-the-badge)](https://surveycontainer.wordpress.com/)
 </div>
+
 
 
 
