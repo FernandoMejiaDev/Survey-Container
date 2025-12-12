@@ -12,26 +12,26 @@
   "author": "Fernando Mejia",
   "license": "MIT",
   "description": "a modular, reusable, and scalable internal survey system.",
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/FernadoCodeDev/Survey-Container-Documentation"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
-    "dotenv": "^17.2.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "@tailwindcss/postcss": "^4.1.18",
+    "dotenv": "^17.2.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
-    "@types/node": "^24.0.13",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "autoprefixer": "^10.4.21",
+    "@types/node": "^24.10.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.22",
     "copyfiles": "^2.4.1",
     "cpx": "^1.5.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11",
-    "tsup": "^8.5.0",
-    "typescript": "^5.8.3"
+    "tailwindcss": "^4.1.18",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
   }
 }
