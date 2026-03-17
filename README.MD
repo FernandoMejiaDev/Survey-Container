@@ -357,7 +357,7 @@ Este SDK está diseñado para ser ligero, funcional y reutilizable, facilitando 
 
 ## API
 
-Este directorio contiene el código del **Backend de la aplicación**, desarrollado con **Node.js, Express, TypeScript**, y la base de datos **SQLite**, utilizando **Prisma** como ORM.
+Este directorio contiene el código del **Backend de la aplicación**, desarrollado con **Node.js, Express, TypeScript**, y la base de datos **SQLite**, utilizando **Prisma** como **ORM.**
 
 ### 🧩 ¿Cómo funciona?
 Al iniciar esta parte del proyecto, se levanta un servidor en `localhost:3000` donde podrás interactuar con la API para crear y consultar encuestas.
@@ -381,7 +381,7 @@ Al iniciar correctamente, deberías ver el siguiente mensaje en consola:
 `API funcionando`
 
 ### 🗃️ Base de datos
-Al ejecutar el backend por primera vez, la base de datos ya debe estar creada (ver instrucciones en el apartado Backend). En este punto, estará vacía, por lo que al visitar la URL:
+Al ejecutar el backend por primera vez, la base de datos ya debe estar creada **(ver instrucciones en el apartado Backend)**. En este punto, estará vacía, por lo que al visitar la URL:
 
 `http://localhost:3000/api/surveys`
 
