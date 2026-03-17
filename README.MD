@@ -68,6 +68,8 @@ cd sdk && npm install
 <details>
 <summary>📂 backend</summary>
 
+<br>
+
 El backend está desarrollado con **Node.js**, usando el framework **Express** y escrito completamente en **TypeScript**. Utiliza **SQLite** como sistema de base de datos local y **Prisma** como ORM para el manejo de datos.
 
 
@@ -89,17 +91,17 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 /backend
 │
 ├── prisma/
-│ └── schema.prisma ← Definición del modelo de la base de datos
+│ └── schema.prisma #Definición del modelo de la base de datos
 │
 ├── src/
-│ ├── controllers/ ← Métodos para manejar encuestas, respuestas y métricas
-│ ├── models/ ← (Si tienes interfaces o tipos definidos)
+│ ├── controllers/ # Métodos para manejar encuestas, respuestas y métricas
+│ ├── models/ # interfaces o tipos definidos
 │ ├── prisma/
-│ │ └── client.ts ← Inicializa la conexión con Prisma
-│ ├── routes/ ← Define rutas para surveys, responses y métricas
-│ └── index.ts ← Archivo principal para levantar el servidor
+│ │     └── client.ts # Inicializa la conexión con Prisma
+│ ├── routes/ # Define rutas para surveys, responses y métricas
+│ └── index.ts # Archivo principal para levantar el servidor
 │
-├── .env ← Variables de entorno
+├── .env # Variables de entorno
 ├── package.json
 └── tsconfig.json
 ```
@@ -109,7 +111,7 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 ### 🧠 ¿Qué es `prisma/`?
 
 La carpeta `prisma/` contiene el archivo `schema.prisma`, donde se define el modelo de la base de datos.  
-Aquí se declaran las **tablas** (o modelos) como `Survey`, `Question`, `Response`, etc., que luego Prisma usa para generar el acceso a la base de datos.
+Aquí se declaran las **tablas** (o modelos) como `Survey`, `Question`, `Response`, etc, que luego Prisma usa para generar el acceso a la base de datos.
 
 También puedes correr el siguiente comando para abrir una interfaz visual de la base de datos:
 
