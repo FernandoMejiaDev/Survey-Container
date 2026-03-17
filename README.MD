@@ -280,7 +280,6 @@ Vista de encuesta con campos para responder
 La carpeta `sdk` contiene el paquete reutilizable que expone el componente `SurveyWidget`, el cual permite integrar encuestas de forma sencilla en cualquier aplicación.  
 Este SDK está hecho en **React** y **TypeScript**, y es el corazón de la funcionalidad para contestar encuestas conectadas al backend.
 
-
 ## ⚙️ Tecnologías usadas
 
 <div align="left">
@@ -289,8 +288,6 @@ Este SDK está hecho en **React** y **TypeScript**, y es el corazón de la funci
 ![react](https://img.shields.io/static/v1?message=react&logo=react&label=&color=61DAFB&logoColor=black&labelColor=&style=for-the-badge)
 
 </div>
-
----
 
 ## 🚀 Instalación
 
@@ -315,7 +312,6 @@ npm install
 │
 ├── package.json
 └── tsconfig.json
-
 ```
 
 ### 🧩 ¿Qué hace SurveyWidget?
