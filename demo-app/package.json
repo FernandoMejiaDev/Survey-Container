@@ -10,27 +10,27 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-router-dom": "^7.10.1",
+    "@tailwindcss/postcss": "^4.2.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.0",
     "react-toastify": "^11.0.5",
     "sdk": "file:..\\sdk"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/react": "^19.2.7",
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^4.7.0",
-    "autoprefixer": "^10.4.22",
-    "eslint": "^9.39.1",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.4",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-react-refresh": "^0.4.26",
     "globals": "^16.5.0",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2",
     "typescript": "~5.8.3",
-    "typescript-eslint": "^8.49.0",
-    "vite": "^7.2.7"
+    "typescript-eslint": "^8.58.2",
+    "vite": "^7.3.2"
   }
 }

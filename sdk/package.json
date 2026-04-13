@@ -1,6 +1,6 @@
 {
   "name": "survey-container",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,20 +17,20 @@
     "url": "https://github.com/FernadoCodeDev/Survey-Container-Documentation"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "dotenv": "^17.2.3",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "@tailwindcss/postcss": "^4.2.2",
+    "dotenv": "^17.4.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@types/node": "^24.10.3",
-    "@types/react": "^19.2.7",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "autoprefixer": "^10.4.22",
+    "autoprefixer": "^10.4.27",
     "copyfiles": "^2.4.1",
     "cpx": "^1.5.0",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   }
