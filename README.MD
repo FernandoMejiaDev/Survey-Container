@@ -61,12 +61,13 @@ cd demo-app && npm install
 ```
 cd sdk && npm install
 ```
----
 
 ## 📁 Estructura del proyecto
 
 <details>
 <summary>📂 backend</summary>
+
+<br>
 
 El backend está desarrollado con **Node.js**, usando el framework **Express** y escrito completamente en **TypeScript**. Utiliza **SQLite** como sistema de base de datos local y **Prisma** como ORM para el manejo de datos.
 
@@ -89,17 +90,17 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 /backend
 │
 ├── prisma/
-│ └── schema.prisma ← Definición del modelo de la base de datos
+│ └── schema.prisma #Definición del modelo de la base de datos
 │
 ├── src/
-│ ├── controllers/ ← Métodos para manejar encuestas, respuestas y métricas
-│ ├── models/ ← (Si tienes interfaces o tipos definidos)
+│ ├── controllers/ # Métodos para manejar encuestas, respuestas y métricas
+│ ├── models/ # interfaces o tipos definidos
 │ ├── prisma/
-│ │ └── client.ts ← Inicializa la conexión con Prisma
-│ ├── routes/ ← Define rutas para surveys, responses y métricas
-│ └── index.ts ← Archivo principal para levantar el servidor
+│ │     └── client.ts # Inicializa la conexión con Prisma
+│ ├── routes/ # Define rutas para surveys, responses y métricas
+│ └── index.ts # Archivo principal para levantar el servidor
 │
-├── .env ← Variables de entorno
+├── .env # Variables de entorno
 ├── package.json
 └── tsconfig.json
 ```
@@ -109,7 +110,7 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 ### 🧠 ¿Qué es `prisma/`?
 
 La carpeta `prisma/` contiene el archivo `schema.prisma`, donde se define el modelo de la base de datos.  
-Aquí se declaran las **tablas** (o modelos) como `Survey`, `Question`, `Response`, etc., que luego Prisma usa para generar el acceso a la base de datos.
+Aquí se declaran las **tablas** (o modelos) como `Survey`, `Question`, `Response`, etc, que luego Prisma usa para generar el acceso a la base de datos.
 
 También puedes correr el siguiente comando para abrir una interfaz visual de la base de datos:
 
@@ -278,7 +279,6 @@ Vista de encuesta con campos para responder
 La carpeta `sdk` contiene el paquete reutilizable que expone el componente `SurveyWidget`, el cual permite integrar encuestas de forma sencilla en cualquier aplicación.  
 Este SDK está hecho en **React** y **TypeScript**, y es el corazón de la funcionalidad para contestar encuestas conectadas al backend.
 
-
 ## ⚙️ Tecnologías usadas
 
 <div align="left">
@@ -287,8 +287,6 @@ Este SDK está hecho en **React** y **TypeScript**, y es el corazón de la funci
 ![react](https://img.shields.io/static/v1?message=react&logo=react&label=&color=61DAFB&logoColor=black&labelColor=&style=for-the-badge)
 
 </div>
-
----
 
 ## 🚀 Instalación
 
@@ -313,7 +311,6 @@ npm install
 │
 ├── package.json
 └── tsconfig.json
-
 ```
 
 ### 🧩 ¿Qué hace SurveyWidget?
@@ -359,7 +356,7 @@ Este SDK está diseñado para ser ligero, funcional y reutilizable, facilitando 
 
 ## API
 
-Este directorio contiene el código del **Backend de la aplicación**, desarrollado con **Node.js, Express, TypeScript**, y la base de datos **SQLite**, utilizando **Prisma** como ORM.
+Este directorio contiene el código del **Backend de la aplicación**, desarrollado con **Node.js, Express, TypeScript**, y la base de datos **SQLite**, utilizando **Prisma** como **ORM.**
 
 ### 🧩 ¿Cómo funciona?
 Al iniciar esta parte del proyecto, se levanta un servidor en `localhost:3000` donde podrás interactuar con la API para crear y consultar encuestas.
@@ -383,7 +380,7 @@ Al iniciar correctamente, deberías ver el siguiente mensaje en consola:
 `API funcionando`
 
 ### 🗃️ Base de datos
-Al ejecutar el backend por primera vez, la base de datos ya debe estar creada (ver instrucciones en el apartado Backend). En este punto, estará vacía, por lo que al visitar la URL:
+Al ejecutar el backend por primera vez, la base de datos ya debe estar creada **(ver instrucciones en el apartado Backend)**. En este punto, estará vacía, por lo que al visitar la URL:
 
 `http://localhost:3000/api/surveys`
 
@@ -426,8 +423,4 @@ La API está preparada para recibir datos seguros y evitar inyecciones SQL media
 [![WORDPRESS](https://img.shields.io/static/v1?message=página-de-documentación&logo=WordPress&label=&color=1790c8&logoColor=white&labelColor=&style=for-the-badge)](https://surveycontainer.wordpress.com/)
 </div>
 
-
-
-
-
-
+---
