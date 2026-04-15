@@ -88,7 +88,6 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 
 ```
 /backend
-│
 ├── prisma/
 │    └── schema.prisma #Definición del modelo de la base de datos
 │
