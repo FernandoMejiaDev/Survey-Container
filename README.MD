@@ -304,9 +304,9 @@ npm install
 │
 ├── src/
 │   ├── components/
-│   │   └── SurveyWidget.tsx ← Componente principal para mostrar y contestar encuestas
+│   │     └── SurveyWidget.tsx ← Componente principal para mostrar y contestar encuestas
 │   ├── types/
-│   │   └── index.ts ← Tipos TypeScript para `Survey`, `Question` y `Response`
+│   │     └── index.ts ← Tipos TypeScript para `Survey`, `Question` y `Response`
 │   └── index.ts ← Punto de entrada del paquete que exporta el componente
 │
 ├── package.json
