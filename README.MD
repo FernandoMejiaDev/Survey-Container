@@ -301,7 +301,6 @@ npm install
 
 ```
 /sdk
-│
 ├── src/
 │   ├── components/
 │   │     └── SurveyWidget.tsx ← Componente principal para mostrar y contestar encuestas
