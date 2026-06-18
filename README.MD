@@ -348,7 +348,7 @@ El componente se exporta desde `src/index.ts` para poder importarlo directamente
 export { SurveyWidget } from './components/SurveyWidget';
 ```
 
-Este SDK está diseñado para ser ligero, funcional y reutilizable, facilitando su integración en cualquier frontend compatible con React.
+Este **SDK** está diseñado para ser ligero, funcional y reutilizable, facilitando su integración en cualquier frontend compatible con React.
 
 </details>
 
@@ -360,7 +360,7 @@ Este SDK está diseñado para ser ligero, funcional y reutilizable, facilitando 
 Este directorio contiene el código del **Backend de la aplicación**, desarrollado con **Node.js, Express, TypeScript**, y la base de datos **SQLite**, utilizando **Prisma** como **ORM.**
 
 ### ¿Cómo funciona?
-Al iniciar esta parte del proyecto, se levanta un servidor en `localhost:3000` donde podrás interactuar con la API para crear y consultar encuestas.
+Al iniciar esta parte del proyecto, se levanta un servidor en `localhost:3000` donde podrás interactuar con la **API** para crear y consultar encuestas.
 
 
 ### Iniciar el servidor
@@ -411,9 +411,9 @@ Para agregar encuestas y probar el sistema, se recomienda utilizar **Postman**:
 - Refresca la página en tu navegador (`localhost:3000/api/surveys`) y ahora verás la encuesta agregada en el array.
 
 ### Notas adicionales
-Si ya tienes abierto el local de `demo-app`, también puedes refrescar la página y verás reflejada la nueva encuesta disponible para ser contestada desde el Front-End.
+Si ya tienes abierto el local de `demo-app`, también puedes refrescar la página y verás reflejada la nueva encuesta disponible para ser contestada desde el **Front-End.**
 
-La API está preparada para recibir datos seguros y evitar inyecciones SQL mediante el uso de **Prisma ORM** y buenas prácticas en los controladores.
+La **API** está preparada para recibir datos seguros y evitar inyecciones **SQL** mediante el uso de **Prisma ORM** y buenas prácticas en los controladores.
 
 </details>
 
