@@ -3,8 +3,8 @@
 > Si estás buscando cómo utilizar este paquete en un proyecto, consulta el repositorio de demo donde se muestra cómo instalarlo y utilizarlo como dependencia 
 > Este repositorio está enfocado en el desarrollo y mantenimiento del paquete. Si lo clonas, obtendrás el entorno de desarrollo del mismo. 
 > Se separaron ambos repositorios (desarrollo y demo) para evitar confusiones entre contribuir al paquete y simplemente consumirlo como dependencia.
-
-[![GITHUB](https://img.shields.io/static/v1?message=Documentación&logo=Github&label=&color=22262A&logoColor=white&labelColor=&style=for-the-badge)](https://github.com/FernandoMejiaDev/Survey-Container-Documentation)
+> 
+> *[Documentación](https://github.com/FernandoMejiaDev/Survey-Container-Documentation)*
 
 # **Survey Container** 
 ![SurveyContainer](https://github.com/FernandoMejiaDev/Survey-Container/blob/main/Img-Readme/SurveyContainer.png)
