@@ -111,7 +111,7 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 ## ¿Qué es la carpeta prisma?
 
 La carpeta `prisma/` contiene el archivo `schema.prisma`, donde se define el modelo de la base de datos.  
-Aquí se declaran las **tablas** (o modelos) como `Survey`, `Question`, `Response`, etc, que luego Prisma usa para generar el acceso a la base de datos.
+Aquí se declaran las **tablas** (o modelos) como `Survey`, `Question`, `Response`, etc, que luego **Prisma** usa para generar el acceso a la base de datos.
 
 También puedes correr el siguiente comando para abrir una interfaz visual de la base de datos:
 
@@ -144,7 +144,7 @@ npx prisma db push
 
 Esto creará automáticamente el archivo `dev.db` **(base de datos SQLite)** basado en el esquema.
 
-4. Para ver tu base de datos ve a Prisma Studio:
+4. Para ver tu base de datos ve a **Prisma Studio:**
 
 ```
 npx prisma studio
@@ -188,7 +188,7 @@ Estas rutas están definidas dentro de la carpeta `src/routes` y cada una se con
 ## ¿Qué es la carpeta demo-app?
 
 La carpeta `demo-app` contiene una aplicación web desarrollada con **React**, **TypeScript** y **Vite**.  
-Esta aplicación sirve como demostración de cómo utilizar el componente `SurveyWidget` del SDK, mostrando su funcionamiento en distintos escenarios de uso real.
+Esta aplicación sirve como demostración de cómo utilizar el componente `SurveyWidget` del **SDK,** mostrando su funcionamiento en distintos escenarios de uso real.
 
 ---
 
@@ -221,11 +221,11 @@ npm run dev
 ```
 
 ## Navegación y rutas
-La lógica de rutas está definida en src/main.tsx, y utiliza react-router-dom. Las rutas disponibles son:
+La lógica de rutas está definida en `src/main.tsx`, y utiliza `react-router-dom`. Las rutas disponibles son:
 
 | **Ruta** | **Componente**                  | **Descripción**                         |
 |:----------:|:--------------------------|:----------------------------------------|
-| /                   | `MetricsViewer`  | Página inicial: muestra todas las encuestas disponibles en la base de datos  |
+| /                   | `MetricsViewer`  | Página inicial que muestra todas las encuestas disponibles en la base de datos  |
 | /app                | `App`            | Página para ingresar manualmente el ID de una encuesta                       |
 | /survey/:surveyId   | `App`            | Página para responder la encuesta seleccionada                               |
 
@@ -248,10 +248,10 @@ El enrutamiento se define así en `main.tsx`:
 - Cada encuesta muestra sus preguntas y un botón “Contestar encuesta” que redirige a `/survey/:surveyId`.
 - Desde esa vista puedes completar y enviar tus respuestas.
 - La interfaz es simple, priorizando la funcionalidad por encima del diseño visual.
-- También puedes probar la vista de encuesta manualmente desde `/app` ingresando un ID válido.
+- También puedes probar la vista de encuesta manualmente desde `/app` ingresando un **ID válido.**
 
 ### Seguridad
-La app está diseñada para prevenir inyecciones SQL en los campos de entrada.
+La app está diseñada para prevenir inyecciones **SQL** en los campos de entrada.
 
 
 ### Estilos
