@@ -68,7 +68,7 @@ cd sdk && npm install
 <details>
 <summary>Backend</summary>
 
-## Backend
+# Backend
 
 El backend está desarrollado con **Node.js**, usando el framework **Express** y escrito completamente en **TypeScript**. Utiliza **SQLite** como sistema de base de datos local y **Prisma** como ORM para el manejo de datos.
 
@@ -108,7 +108,7 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 
 > Las carpetas `dist/` y `node_modules/` se excluyen porque se generan automáticamente al compilar y al instalar dependencias.
 
-## ¿Qué es `prisma/`?
+## ¿Qué es la carpeta prisma?
 
 La carpeta `prisma/` contiene el archivo `schema.prisma`, donde se define el modelo de la base de datos.  
 Aquí se declaran las **tablas** (o modelos) como `Survey`, `Question`, `Response`, etc, que luego Prisma usa para generar el acceso a la base de datos.
@@ -121,7 +121,7 @@ npx prisma studio
 
 ### Configuración de la base de datos
 
-Para configurar la base de datos con SQLite, asegúrate de tener el archivo schema.prisma definido. Luego:
+Para configurar la base de datos con **SQLite,** asegúrate de tener el archivo schema.prisma definido. Luego:
 
 1. Entra a la carpeta backend: 
 
@@ -142,7 +142,7 @@ npx prisma generate
 npx prisma db push
 ```
 
-Esto creará automáticamente el archivo dev.db (base de datos SQLite) basado en el esquema.
+Esto creará automáticamente el archivo `dev.db` **(base de datos SQLite)** basado en el esquema.
 
 4. Para ver tu base de datos ve a Prisma Studio:
 
@@ -164,7 +164,7 @@ cd backend
 npm run dev
 ```
 
-### Rutas disponibles
+## Rutas disponibles
 Estas rutas están definidas dentro de la carpeta `src/routes` y cada una se conecta con su respectivo controlador (`src/controllers`):
 
 | **Método** | **Ruta**                  | **Descripción**                         |
@@ -174,10 +174,10 @@ Estas rutas están definidas dentro de la carpeta `src/routes` y cada una se con
 | GET        | `/api/metrics/:surveyId`  | Ver métricas agrupadas por pregunta     |
 
 
-### Explicación por carpetas
+## Explicación por carpetas
 - `controllers/`: Aquí se encuentran las funciones que manejan la lógica de cada endpoint, como obtener encuestas, registrar respuestas y calcular métricas.
-- `routes/`: Define las rutas del API y las conecta con los controladores correspondientes.
-- `prisma/client.ts`: Archivo que crea y exporta una instancia de PrismaClient. Se importa en los controladores para acceder a la base de datos.
+- `routes/`: Define las rutas del **API** y las conecta con los controladores correspondientes.
+- `prisma/client.ts`: Archivo que crea y exporta una instancia de **PrismaClient.** Se importa en los controladores para acceder a la base de datos.
 - `index.ts`: Archivo principal que levanta el servidor Express y configura middlewares básicos.
 
 </details>
@@ -185,7 +185,7 @@ Estas rutas están definidas dentro de la carpeta `src/routes` y cada una se con
 <details>
 <summary>demo-app</summary>
 
-## ¿Qué es `demo-app`?
+## ¿Qué es la carpeta demo-app?
 
 La carpeta `demo-app` contiene una aplicación web desarrollada con **React**, **TypeScript** y **Vite**.  
 Esta aplicación sirve como demostración de cómo utilizar el componente `SurveyWidget` del SDK, mostrando su funcionamiento en distintos escenarios de uso real.
