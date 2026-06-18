@@ -16,7 +16,7 @@
 
 - Un **SDK** frontend en **React + TypeScript** (`/sdk`)
 - Un backend en **Node.js + Express + TypeScript** (`/backend`)
-- Una API funcional para gestionar encuestas, respuestas y métricas
+- Una **API** funcional para gestionar encuestas, respuestas y métricas
 - Una app de demostración (`/demo-app`) que integra el **SDK**
 
 ## ¿Qué es Survey Container?
