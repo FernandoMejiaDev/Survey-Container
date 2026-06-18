@@ -21,13 +21,13 @@
 
 ## ¿Qué es Survey Container?
 
-Survey Container es un sistema de encuestas interno pensado para integrarse fácilmente en diferentes aplicaciones. Está compuesto por un paquete npm exportable (`<SurveyWidget />`) y una API para manejo de datos. Fue creado con TypeScript en todos sus componentes, siguiendo principios de modularidad y escalabilidad.
+Survey Container es un sistema de encuestas interno pensado para integrarse fácilmente en diferentes aplicaciones. Está compuesto por un paquete npm exportable (`<SurveyWidget />`) y una **API** para manejo de datos. Fue creado con **TypeScript** en todos sus componentes, siguiendo principios de modularidad y escalabilidad.
 
 ## ¿Qué necesidad resuelve?
 
 - Permite a empresas recolectar feedback interno de forma ágil.
 - Su diseño modular permite integrarlo fácilmente en múltiples entornos frontend.
-- Ofrece una API clara y tipada para obtener resultados de encuestas y métricas.
+- Ofrece una **API** clara y tipada para obtener resultados de encuestas y métricas.
 
 ## Tecnologías utilizadas
 
@@ -42,8 +42,8 @@ Survey Container es un sistema de encuestas interno pensado para integrarse fác
 </div>
 
 ## Cómo probar Survey-Container
-- clona el repositorio
-- instala las dependencias de cada carpeta
+- Clona el repositorio
+- Instala las dependencias de cada carpeta
 
 **Backend**
 
