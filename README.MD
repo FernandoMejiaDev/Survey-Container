@@ -10,7 +10,7 @@
 ![SurveyContainer](https://github.com/FernandoMejiaDev/Survey-Container/blob/main/Img-Readme/SurveyContainer.png)
 
 
-# 📦 Survey Container
+# Survey Container
 
 **Survey Container** es una solución completa desarrollada como parte de una prueba técnica para construir un sistema de encuestas internas modular, reutilizable y escalable. Este proyecto incluye:
 
@@ -19,17 +19,17 @@
 - Una API funcional para gestionar encuestas, respuestas y métricas
 - Una app de demostración (`/demo-app`) que integra el SDK
 
-## 🧠 ¿Qué es Survey Container?
+## ¿Qué es Survey Container?
 
 Survey Container es un sistema de encuestas interno pensado para integrarse fácilmente en diferentes aplicaciones. Está compuesto por un paquete npm exportable (`<SurveyWidget />`) y una API para manejo de datos. Fue creado con TypeScript en todos sus componentes, siguiendo principios de modularidad y escalabilidad.
 
-### 🚀 ¿Qué necesidad resuelve?
+## ¿Qué necesidad resuelve?
 
 - Permite a empresas recolectar feedback interno de forma ágil.
 - Su diseño modular permite integrarlo fácilmente en múltiples entornos frontend.
 - Ofrece una API clara y tipada para obtener resultados de encuestas y métricas.
 
-### ⚙️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 <div align="left">
 
@@ -41,7 +41,7 @@ Survey Container es un sistema de encuestas interno pensado para integrarse fác
 
 </div>
 
-### 🧪 Cómo probar Survey-Container
+## Cómo probar Survey-Container
 - clona el repositorio
 - instala las dependencias de cada carpeta
 
@@ -63,17 +63,17 @@ cd demo-app && npm install
 cd sdk && npm install
 ```
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 <details>
-<summary>📂 backend</summary>
+<summary>Backend</summary>
 
-<br>
+## Backend
 
 El backend está desarrollado con **Node.js**, usando el framework **Express** y escrito completamente en **TypeScript**. Utiliza **SQLite** como sistema de base de datos local y **Prisma** como ORM para el manejo de datos.
 
 
-## ⚙️ Tecnologías usadas
+## Tecnologías usadas
 
 <div align="left">
 
@@ -85,7 +85,7 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 
 </div>
 
-### 📦 Estructura general
+## Estructura general
 
 ```
 /backend
@@ -108,7 +108,7 @@ El backend está desarrollado con **Node.js**, usando el framework **Express** y
 
 > Las carpetas `dist/` y `node_modules/` se excluyen porque se generan automáticamente al compilar y al instalar dependencias.
 
-### 🧠 ¿Qué es `prisma/`?
+## ¿Qué es `prisma/`?
 
 La carpeta `prisma/` contiene el archivo `schema.prisma`, donde se define el modelo de la base de datos.  
 Aquí se declaran las **tablas** (o modelos) como `Survey`, `Question`, `Response`, etc, que luego Prisma usa para generar el acceso a la base de datos.
@@ -119,7 +119,7 @@ También puedes correr el siguiente comando para abrir una interfaz visual de la
 npx prisma studio
 ```
 
-### 🛠️ Configuración de la base de datos
+### Configuración de la base de datos
 
 Para configurar la base de datos con SQLite, asegúrate de tener el archivo schema.prisma definido. Luego:
 
@@ -150,7 +150,7 @@ Esto creará automáticamente el archivo dev.db (base de datos SQLite) basado en
 npx prisma studio
 ```
 
-### 🚀 Iniciar el servidor
+### Iniciar el servidor
 
 - Recuerd que debes entrar a la carpeta backend para inicar el servidor
 
@@ -164,7 +164,7 @@ cd backend
 npm run dev
 ```
 
-### 🌐 Rutas disponibles
+### Rutas disponibles
 Estas rutas están definidas dentro de la carpeta `src/routes` y cada una se conecta con su respectivo controlador (`src/controllers`):
 
 | **Método** | **Ruta**                  | **Descripción**                         |
@@ -174,7 +174,7 @@ Estas rutas están definidas dentro de la carpeta `src/routes` y cada una se con
 | GET        | `/api/metrics/:surveyId`  | Ver métricas agrupadas por pregunta     |
 
 
-### 📂 Explicación por carpetas
+### Explicación por carpetas
 - `controllers/`: Aquí se encuentran las funciones que manejan la lógica de cada endpoint, como obtener encuestas, registrar respuestas y calcular métricas.
 - `routes/`: Define las rutas del API y las conecta con los controladores correspondientes.
 - `prisma/client.ts`: Archivo que crea y exporta una instancia de PrismaClient. Se importa en los controladores para acceder a la base de datos.
@@ -183,16 +183,16 @@ Estas rutas están definidas dentro de la carpeta `src/routes` y cada una se con
 </details>
 
 <details>
-<summary>📂 demo-app</summary>
+<summary>demo-app</summary>
 
-## 🎯 ¿Qué es `demo-app`?
+## ¿Qué es `demo-app`?
 
 La carpeta `demo-app` contiene una aplicación web desarrollada con **React**, **TypeScript** y **Vite**.  
 Esta aplicación sirve como demostración de cómo utilizar el componente `SurveyWidget` del SDK, mostrando su funcionamiento en distintos escenarios de uso real.
 
 ---
 
-## ⚙️ Tecnologías usadas
+## Tecnologías usadas
 
 <div align="left">
 
@@ -203,9 +203,9 @@ Esta aplicación sirve como demostración de cómo utilizar el componente `Surve
 
 </div>
 
-> 🎨 Estilos personalizados con CSS (sin Tailwind por compatibilidad con el SDK)
+> Estilos personalizados con CSS (sin Tailwind por compatibilidad con el SDK)
 
-## 🚀 ¿Cómo iniciar el proyecto?
+## ¿Cómo iniciar el proyecto?
 
 Primero, asegúrate de haber instalado las dependencias:
 
@@ -220,7 +220,7 @@ Luego, para iniciar el servidor en desarrollo:
 npm run dev
 ```
 
-## 🧭 Navegación y rutas
+## Navegación y rutas
 La lógica de rutas está definida en src/main.tsx, y utiliza react-router-dom. Las rutas disponibles son:
 
 | **Ruta** | **Componente**                  | **Descripción**                         |
@@ -242,7 +242,7 @@ El enrutamiento se define así en `main.tsx`:
 </BrowserRouter>
 ```
 
-### 🧪 Funcionalidad principal
+### Funcionalidad principal
 
 - Al iniciar la aplicación, se listan todas las encuestas disponibles.
 - Cada encuesta muestra sus preguntas y un botón “Contestar encuesta” que redirige a `/survey/:surveyId`.
@@ -250,18 +250,18 @@ El enrutamiento se define así en `main.tsx`:
 - La interfaz es simple, priorizando la funcionalidad por encima del diseño visual.
 - También puedes probar la vista de encuesta manualmente desde `/app` ingresando un ID válido.
 
-### 🔐 Seguridad
+### Seguridad
 La app está diseñada para prevenir inyecciones SQL en los campos de entrada.
 
 
-### 🎨 Estilos
+### Estilos
 El archivo de estilos principal es `src/index.css`.
 
 > Debido a que el SDK no compila directamente con Tailwind CSS, en esta app se usan estilos personalizados con CSS nativo.
 
 Dentro de `index.css` encontrarás un comentario explicando por qué se optó por esta estrategia en lugar de usar Tailwind.
 
-### 📸 Pantallas
+### Pantallas
 Vista principal con encuestas:
 
 ![Vista principal con encuestas](https://github.com/FernandoMejiaDev/Survey-Container/blob/main/Img-Readme/Readme-Image-1.png)
@@ -273,14 +273,14 @@ Vista de encuesta con campos para responder
 </details>
 
 <details>
-<summary>📂 sdk</summary>
+<summary>sdk</summary>
 
-## 📦 ¿Qué es `sdk`?
+## ¿Qué es `sdk`?
 
 La carpeta `sdk` contiene el paquete reutilizable que expone el componente `SurveyWidget`, el cual permite integrar encuestas de forma sencilla en cualquier aplicación.  
 Este SDK está hecho en **React** y **TypeScript**, y es el corazón de la funcionalidad para contestar encuestas conectadas al backend.
 
-## ⚙️ Tecnologías usadas
+## Tecnologías usadas
 
 <div align="left">
 
@@ -289,7 +289,7 @@ Este SDK está hecho en **React** y **TypeScript**, y es el corazón de la funci
 
 </div>
 
-## 🚀 Instalación
+## Instalación
 
 Igual que en las otras carpetas, solo debes instalar las dependencias:
 
@@ -298,7 +298,7 @@ cd sdk
 npm install
 ```
 
-### 🧱 Estructura del SDK
+### Estructura del SDK
 
 ```
 /sdk
@@ -314,7 +314,7 @@ npm install
 └── tsconfig.json
 ```
 
-### 🧩 ¿Qué hace SurveyWidget?
+### ¿Qué hace SurveyWidget?
 
 El componente `SurveyWidget` es un formulario dinámico que:
 
@@ -332,7 +332,7 @@ Además, este componente evita errores comunes como:
 - Dejar campos vacíos.
 - Perder el estado al cambiar de input.
 
-### 🧠 Tipos definidos
+### Tipos definidos
 
 Dentro de `src/types/index.ts` se definen las siguientes interfaces:
 
@@ -340,7 +340,7 @@ Dentro de `src/types/index.ts` se definen las siguientes interfaces:
 - `Question`: Cada pregunta tiene un `id` y su `text`.
 - `Response`: Representa la respuesta enviada a una pregunta (`questionId`, `content`).
 
-### 📁 Exportación del componente
+### Exportación del componente
 
 El componente se exporta desde `src/index.ts` para poder importarlo directamente desde cualquier proyecto:
 
@@ -353,17 +353,17 @@ Este SDK está diseñado para ser ligero, funcional y reutilizable, facilitando 
 </details>
 
 <details>
-<summary>📡 API</summary>
+<summary>API</summary>
 
 ## API
 
 Este directorio contiene el código del **Backend de la aplicación**, desarrollado con **Node.js, Express, TypeScript**, y la base de datos **SQLite**, utilizando **Prisma** como **ORM.**
 
-### 🧩 ¿Cómo funciona?
+### ¿Cómo funciona?
 Al iniciar esta parte del proyecto, se levanta un servidor en `localhost:3000` donde podrás interactuar con la API para crear y consultar encuestas.
 
 
-### 🚀 Iniciar el servidor
+### Iniciar el servidor
 Primero, asegúrate de haber instalado las dependencias:
 
 ```
@@ -380,14 +380,14 @@ npm run dev
 Al iniciar correctamente, deberías ver el siguiente mensaje en consola:
 `API funcionando`
 
-### 🗃️ Base de datos
+### Base de datos
 Al ejecutar el backend por primera vez, la base de datos ya debe estar creada **(ver instrucciones en el apartado Backend)**. En este punto, estará vacía, por lo que al visitar la URL:
 
 `http://localhost:3000/api/surveys`
 
 `[]`
 
-### 🧪 Probar la API
+### Probar la API
 Para agregar encuestas y probar el sistema, se recomienda utilizar **Postman**:
 
 - Abre Postman y crea una nueva **petición POST**
@@ -410,7 +410,7 @@ Para agregar encuestas y probar el sistema, se recomienda utilizar **Postman**:
 - Haz clic en **Send** y si todo está correcto, la encuesta se guardará.
 - Refresca la página en tu navegador (`localhost:3000/api/surveys`) y ahora verás la encuesta agregada en el array.
 
-### 📌 Notas adicionales
+### Notas adicionales
 Si ya tienes abierto el local de `demo-app`, también puedes refrescar la página y verás reflejada la nueva encuesta disponible para ser contestada desde el Front-End.
 
 La API está preparada para recibir datos seguros y evitar inyecciones SQL mediante el uso de **Prisma ORM** y buenas prácticas en los controladores.
