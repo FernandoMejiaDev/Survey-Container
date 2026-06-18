@@ -14,10 +14,10 @@
 
 **Survey Container** es una solución completa desarrollada como parte de una prueba técnica para construir un sistema de encuestas internas modular, reutilizable y escalable. Este proyecto incluye:
 
-- Un SDK frontend en React + TypeScript (`/sdk`)
-- Un backend en Node.js + Express + TypeScript (`/backend`)
+- Un **SDK** frontend en **React + TypeScript** (`/sdk`)
+- Un backend en **Node.js + Express + TypeScript** (`/backend`)
 - Una API funcional para gestionar encuestas, respuestas y métricas
-- Una app de demostración (`/demo-app`) que integra el SDK
+- Una app de demostración (`/demo-app`) que integra el **SDK**
 
 ## ¿Qué es Survey Container?
 
