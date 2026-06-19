@@ -275,7 +275,7 @@ Vista de encuesta con campos para responder
 <details>
 <summary>sdk</summary>
 
-## ¿Qué es `sdk`?
+## ¿Qué es sdk?
 
 La carpeta `sdk` contiene el paquete reutilizable que expone el componente `SurveyWidget`, el cual permite integrar encuestas de forma sencilla en cualquier aplicación.  
 Este SDK está hecho en **React** y **TypeScript**, y es el corazón de la funcionalidad para contestar encuestas conectadas al backend.
